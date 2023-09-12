@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9062606211416071592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9062606211416071599}
+  - component: {fileID: 3729638176477033988}
+  - component: {fileID: 9062606211839178397}
+  m_Layer: 0
+  m_Name: ShootingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9062606211416071599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062606211416071592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16607666, y: 0.51208496, z: 0.84814453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3729638176477033988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062606211416071592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a30dfb82c9d0cc46b6b776e4dbf5601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab:
+  - {fileID: 5440387378828150907, guid: 8140fd5223f95394fbec4eae296c4d41, type: 3}
+  - {fileID: 5440387378828150907, guid: 8140fd5223f95394fbec4eae296c4d41, type: 3}
+  - {fileID: 5440387378828150907, guid: 1b1ad6ae896949746a70ef0dd52a1296, type: 3}
+  bulletSpeed: 55
+  gunDamageBody: 45
+  gunDamageHead: 65
+  rifleDamageBody: 0f0000001e00000014000000
+  rifleDamageHead: 230000003c00000028000000
+  rifleCadence:
+  - 0.05
+  - 0.2
+  - 0.5
+  rifleRange:
+  - 25
+  - 100
+  - 15
+  rifleIsAuto: 010000
+  turretDamageBody: 8
+  turretDamageHead: 33
+  bulletTankPrefab: {fileID: 5440387378828150907, guid: dad51995d5f3b5c45ac3543f42e4faec,
+    type: 3}
+  damageTankBullet: 500
+  rangeTankBullet: 6
+  bulletPlanePrefab: {fileID: 5440387378828150907, guid: 9d185bd1ec3a0eb4c88da7161824f865,
+    type: 3}
+  damagePlaneBullet: 500
+  rangePlaneBullet: 10
+  rocketPrefab: {fileID: 5440387378828150907, guid: e0fbea3944ed7f04c8afa783be1c9d0b,
+    type: 3}
+  damageRocket: 2500
+  maxDistanceRocket: 2.5
+  bulletSHotGun: {fileID: 5440387378828150907, guid: 1b1ad6ae896949746a70ef0dd52a1296,
+    type: 3}
+  precissionShotGun: 5
+  bulletEnemy: {fileID: 5440387378828150907, guid: 8140fd5223f95394fbec4eae296c4d41,
+    type: 3}
+  enemyDamage: 10
+  enemyRange: 25
+  maxRange: 200
+  maxCadence: 1
+  maxDamage: 100
+--- !u!114 &9062606211839178397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062606211416071592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 0
+  Synchronization: 0
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

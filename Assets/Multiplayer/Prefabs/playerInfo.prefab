@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6524936022287925295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6524936022287925281}
+  - component: {fileID: 6524936022287925280}
+  m_Layer: 0
+  m_Name: playerInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6524936022287925281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524936022287925295}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 292, y: 164, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6524936022287925280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524936022287925295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a417ecfeda884ca468b704a955600957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 0
+  NickName: 
+  myHeight: 1.75
+  myTeam: 0
+  mySkin: 0
+  myMesh: 0
+  myWeapon: 0
+  myMap: 0
+  myscope: 0
+  myHability: 0
+  nbMeshes: 2
+  colAlpha: {r: 0, g: 0.7300215, b: 1, a: 1}
+  colBravo: {r: 0.9245283, g: 0.11774653, b: 0.11774653, a: 1}
+  nbWEapons: 3
+  nbScopes: 1
+  weapons: {fileID: 0}
+  textNickname: {fileID: 0}
+  textHeigth: {fileID: 0}
+  sliderHeight: {fileID: 0}
+  textMode: {fileID: 0}
+  textTeam: {fileID: 0}
+  textMap: {fileID: 0}
+  sprites:
+  - {fileID: 21300000, guid: 4f2732caebb17024984604bdc8b7a25c, type: 3}
+  - {fileID: 21300000, guid: 1cba1ac6c6b126947b3fee96f907734e, type: 3}
+  - {fileID: 21300000, guid: 1162f78ab2f1ffa4bb337feb23c6a968, type: 3}
+  - {fileID: 21300000, guid: e24a038ea509beb41ad985951f08cf91, type: 3}
+  - {fileID: 21300000, guid: 72ea61745b42dba4b81e438b4ee6d302, type: 3}
+  iconImg: {fileID: 0}
+  mapIcon: {fileID: 0}
+  mapsIcons:
+  - {fileID: 21300000, guid: bc8430ccb5d7d5f41afdb7bece7854f2, type: 3}
+  - {fileID: 21300000, guid: eabf1d2763c26dc45a23ea854d3ef072, type: 3}
+  avatarTxt: {fileID: 0}
+  nbHabilities: 4

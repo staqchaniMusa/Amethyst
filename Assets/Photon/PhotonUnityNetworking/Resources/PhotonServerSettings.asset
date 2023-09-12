@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 48f6787f-3d2b-4b73-bfb0-63606ef8ab9a
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 48f6787f-3d2b-4b73-bfb0-63606ef8ab9a
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - CantHearYou
+  - ChangeColour
+  - ClickRpc
+  - DestroyRpc
+  - HeresWhy
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - RCP_AddRb
+  - RPC_ActivateBomb
+  - RPC_AddCharacter
+  - RPC_AddNumber
+  - RPC_attactToPlayer
+  - RPC_ChangePassword
+  - RPC_ClearBomb
+  - RPC_Die
+  - RPC_DisableMeshes
+  - RPC_EndGame
+  - RPC_EnemyShooting
+  - RPC_Explode
+  - RPC_HideMesh
+  - RPC_InsideVehicle
+  - RPC_IsOcuppied
+  - RPC_OutsideVehicle
+  - RPC_QuitAllPlayersInTankAndDestroy
+  - RPC_QuitAllPlayersInVehicleAndDestroy
+  - RPC_Respawn
+  - RPC_Rocket
+  - RPC_SetLastPlayerHit
+  - RPC_SetNetVis
+  - RPC_SetOpen
+  - RPC_SetRendHandEnabled_L
+  - RPC_SetRendHandEnabled_R
+  - RPC_Shooting
+  - RPC_ShootingPlane
+  - RPC_ShootingShotGun
+  - RPC_ShootingTank
+  - RPC_ShowMesh
+  - RPC_ShowMesh2
+  - RPC_ShowScope
+  - RPC_syncroTime
+  - RPC_TimeManagement
+  - RPC_UpdateLifeBar
+  - RPC_UpdateScore
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0

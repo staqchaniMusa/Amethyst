@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - magazine
+  - rifleInsertMag
+  - pistolInsertClip
+  - scoreManager
+  - handLeft
+  - handRight
+  - winner
+  - time_hud
+  - scoreBoardLine
+  - debugText
+  - bulletHUD
+  - head
+  - bullet
+  - environmnet
+  - roomInstance
+  - hand
+  - zombieHead
+  - zombieBoddy
+  - ovrCntroller
+  - Avatar
+  - grenadePos
+  - menu
+  - charBack
+  - but
+  - char
+  - button
+  - buttonKnob
+  - bodyCollider
+  - connectedIcon
+  - disconnectedIcon
+  - gameSetup
+  - environment
+  - spawnPoint
+  - bulletContainer
+  - ground
+  - drone
+  - XR
+  - scopePositionRifle
+  - handCollider
+  - tank
+  - plane
+  - tankChasis
+  - regen
+  - maxLimit
+  - minLimit
+  - playerInstance
+  - snapBomb
+  - startTimerText
+  - disableOnStart
+  - bombManager
+  - snapFlagAlpha
+  - snapFlagBravo
+  - ending
+  - bomb
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - 
+  - glow
+  - layerHandLeft
+  - layerHandRight
+  - grabbable
+  - player
+  - tank
+  - plane
+  - barrier
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

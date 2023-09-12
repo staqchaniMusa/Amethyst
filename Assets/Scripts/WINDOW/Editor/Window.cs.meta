@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 484c9e297f0dac642b13acad84c6759d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - logo: {fileID: 2800000, guid: 27a90c61df935a048a2919d6d15a4d65, type: 3}
+  - playerPrefab: {fileID: 238, guid: fcb0ebf4c7e14fa40a1c89289101b8ba, type: 3}
+  - shootingManagerPrefab: {fileID: 9062606211416071592, guid: 437605d269814be44a18fc1715f5f33b,
+      type: 3}
+  - riflePrefab: {fileID: 7926785864795580502, guid: 8454dee409164274da938c01d71a6541,
+      type: 3}
+  - gunPrefab: {fileID: 6559501116347783255, guid: e518dad72a19aba40b4492dcc67db9a2,
+      type: 3}
+  - gunMagazinePrefab: {fileID: 761780761156778462, guid: 6d68bde1b8665b24892a51d9f8ed1b10,
+      type: 3}
+  - rifleMagazinePrefab: {fileID: 7655349169675728197, guid: 471e0c19ae82ece489dbf1d4658eeb31,
+      type: 3}
+  - bulletPrefab: {fileID: 5440387378828150907, guid: 8140fd5223f95394fbec4eae296c4d41,
+      type: 3}
+  - audioShooting: {fileID: 8300000, guid: 488f26037cdc3d24ba6ddf6ea071774c, type: 3}
+  - audioReloading: {fileID: 8300000, guid: a0e73b9de3a93b24797c391a3b107aba, type: 3}
+  - audioMetal: {fileID: 8300000, guid: 35e266aba1be09e4792d363ba1d44e87, type: 3}
+  - audioFloor: {fileID: 8300000, guid: f72638484c1ce5b4891538a4c2f40370, type: 3}
+  - zombieGO: {fileID: 7560509412911297085, guid: d8ce69904522d85438573a71675e53b2,
+      type: 3}
+  - zSound: {fileID: 8300000, guid: f29d1263244b52e478095b4ed7ed8cb9, type: 3}
+  - zombieSpawnGo: {fileID: 7350696978324197974, guid: 4139a652438e4994d8dfc9a1da9d9e44,
+      type: 3}
+  - roomGO: {fileID: 4345146134963060051, guid: c23c40ce2c59c07438dfa1174a03bd20,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
