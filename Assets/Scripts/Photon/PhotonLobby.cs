@@ -37,7 +37,7 @@ public enum TypeMode { team, royale, drone, bomb, flag };
 /// <summary>
 /// This is the most important script that allows the room/lobby connections
 /// </summary>
-public class PhotonLobby : MonoBehaviourPunCallbacks, IInRoomCallbacks
+public class PhotonLobby : MonoBehaviourPunCallbacks, IInRoomCallbacks, IPunOwnershipCallbacks
 {
 
     //singleton
@@ -564,7 +564,20 @@ public class PhotonLobby : MonoBehaviourPunCallbacks, IInRoomCallbacks
         Debug.Log("My Team " + team);
     }
 
+    public void OnOwnershipRequest(PhotonView targetView, Player requestingPlayer)
+    {
+        targetView.gameObject.GetComponent<IPunClientOwnershipChange>().OnOwnershipRequest(targetView, requestingPlayer);
+    }
 
+    public void OnOwnershipTransfered(PhotonView targetView, Player previousOwner)
+    {
+        targetView.gameObject.GetComponent<IPunClientOwnershipChange>().OnOwnershipTransfered(targetView,previousOwner);
+    }
+
+    public void OnOwnershipTransferFailed(PhotonView targetView, Player senderOfFailedRequest)
+    {
+        targetView.gameObject.GetComponent<IPunClientOwnershipChange>().OnOwnershipTransferFailed(targetView, senderOfFailedRequest);
+    }
     public void Quit()
     {
         Application.Quit();
